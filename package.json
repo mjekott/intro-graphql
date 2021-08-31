@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "a graphql intro",
+  "type": "module",
+  "main": "index.js",
+  "repository": "git@github.com:mjekott/intro-graphql.git",
+  "author": "mjekott <ekottmfon@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js "
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-yoga": "1.14.8",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-node": "^0.0.1-security",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
